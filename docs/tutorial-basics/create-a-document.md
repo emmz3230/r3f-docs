@@ -2,56 +2,86 @@
 sidebar_position: 2
 ---
 
-# Create a Document
+# Setup Development Environment
 
-Documents are **groups of pages** connected through:
+### Description
 
-- a **sidebar**
-- **previous/next navigation**
-- **versioning**
+To begin, we should ensure that we've set up an IDE (Integrated Development Environment) to develop with.
 
-## Create your first Doc
+### VSCode
 
-Create a Markdown file at `docs/hello.md`:
+The IDE that I will use is VSCode. If you also use VSCode then what you will see, will more closely match what I show in the videos.
 
-```md title="docs/hello.md"
-# Hello
+If you don't have VSCode already installed, then you can install it from https://code.visualstudio.com.
 
-This is my **first Docusaurus document**!
+Also, it is useful, but not essential, to be able to start VSCode from the command line.
+
+We can check it is available from the command line by typing
+
+```
+code -v
 ```
 
-A new document is now available at [http://localhost:3000/docs/hello](http://localhost:3000/docs/hello).
+The response should indicate a version number, plus several other bits of information.
 
-## Configure the Sidebar
+### Node.js
 
-Docusaurus automatically **creates a sidebar** from the `docs` folder.
+We also need Node.js, which includes NPM, since we will be using the npm and npx commands.
 
-Add metadata to customize the sidebar label and position:
+To check if Node.js is already installed, open a cmd/terminal/shell prompt and type,
 
-```md title="docs/hello.md" {1-4}
----
-sidebar_label: 'Hi!'
-sidebar_position: 3
----
-
-# Hello
-
-This is my **first Docusaurus document**!
+```
+node -v
 ```
 
-It is also possible to create your sidebar explicitly in `sidebars.js`:
+You should get a response indicating a version number.
 
-```js title="sidebars.js"
-export default {
-  tutorialSidebar: [
-    'intro',
-    // highlight-next-line
-    'hello',
-    {
-      type: 'category',
-      label: 'Tutorial',
-      items: ['tutorial-basics/create-a-document'],
-    },
-  ],
-};
+E.g.,
+
+```
+v18.14.0
+```
+
+Your version should be equal to or higher than v18.0.0.
+
+We can also check the version of NPM,
+
+```
+npm -v
+```
+
+You want to see no error, but instead a version number equal to, or higher than v8.0.0.
+
+E.g.,
+
+```
+9.8.1
+```
+
+If either of those two commands returned an error indicating that they were unrecognized, or the versions numbers were lower than required, then you can install the latest LTS (long term support) version of Node.js from https://nodejs.org/en/
+
+Git
+You may also want to use Git, but it is not essential yet.
+
+You can check if Git is already installed. It usually is, by default on Linux and macOS.
+
+```
+git --version
+```
+
+You want to see a version number higher than 2.0.0, and no error indicating that the command was unrecognized.
+
+You can install Git for Windows from https://gitforwindows.org.
+
+If you are using macOS or Linux, then visit https://git-scm.com/downloads.
+
+### Troubleshooting
+
+Error : ENOENT: no such file or directory, lstat
+When running npx commands, you may get an error stating that it cannot find lstat.
+
+Open a command/bash/powershell prompt and run
+
+```
+npm install -g npm
 ```

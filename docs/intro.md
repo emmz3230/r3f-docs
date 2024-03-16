@@ -4,44 +4,28 @@ sidebar_position: 1
 
 # Tutorial Intro
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Welcome to my course on React Three Fiber.
 
-## Getting Started
+Learn about Threejs and React using React Three Fiber and Drei.
 
-Get started by **creating a new site**.
+### Overview
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+If you've ever tried to read the React Three Fiber documentation, you may have noticed the phrase,
 
-### What you'll need
+"You need to be versed in both React and Threejs before rushing into this."
 
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+And this is the gap that this course will try to help you fill.
 
-## Generate a new site
+We will look at the basics of using React Three Fiber with Threejs and introduce many of the great helpers that you also get when using the Drei library.
 
-Generate a new Docusaurus site using the **classic template**.
+At the end, we would have covered many of the requirements to understand how to build your own React Three Fiber projects, and also understand the official examples better, so that you can confidently continue on your own to build much more complex applications in the future.
 
-The classic template will automatically be added to your project after you run the command:
+As we progress though the course, we will learn new concepts in each lesson, that will be in context from the previous lesson, so that you will understand better the problem that each new concept was designed to solve.
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+React Three Fiber is great for working with Threejs, and I am sure you will like it to. It's very clear, minimal, the code looks neat, and you will be able to create very robust applications in a very short amount of time.
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+All the code demonstrated is provided in the accompanying documentation that you also get access to for free, so that you will be able to easily copy/paste, and participate alongside the videos.
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+So there is much to learn, but in the end, you will have developed the techniques required to build your own Three.js projects declaratively, with re-usable self-contained components, that react to state and will be able to participate in the ever-expanding React ecosystem.
 
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+Thanks for taking part in my course, and I hope to see you there.
