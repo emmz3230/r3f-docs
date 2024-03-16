@@ -3,13 +3,13 @@ slug: first-blog-post
 title: How to Build Interactive Graphics with React Three Fiber
 authors:
   name: Samuel Emmanuel
-  title: How to Build Interactive Graphics with React Three Fiber TypeScript
+  title: Technical writer and Front-End Engineer
   url: https://github.com/emmz3230
   image_url: https://github.com/emmz3230.png
 tags: [github]
 ---
 
-How to Build Interactive Graphics with React Three Fiber TypeScript
+![R3F-img](/img/r3f-img.png)
 
 React Three Fiber (R3F) is a powerful tool that brings the world of 3D into React. It's a React renderer for ThreeJS on the web and React Native. It allows developers to declaratively create custom elements, manage them in the React way, and take advantage of React's ecosystem.
 

@@ -5,6 +5,8 @@ authors: [Samuel]
 tags: [github]
 ---
 
+![R3F-fiber](/img/r3f-fiber.png)
+
 What if I told you… that you too can learn to code in 3D objects in React that can wow customers? Learn the basics of the react-three-fiber renderer, and soon enough, you could be able to turn a static page into an art gallery, an interactive map, or any other metaverse thing.
 
 ### Reasons for using a React renderer
@@ -23,6 +25,7 @@ Rendering is easier with a high-level library called Three.js, which allows you 
 To see anything, you need to declare your cube. Pretty simple.
 
 Still nothing? Okay, there is one more step.
+![R3F-Skeleton](/img/R3F-Skeletor.jpeg)
 
 ### Now, import react-three-fiber
 
@@ -61,4 +64,8 @@ Remember that to produce real results with react-three-fiber, you really should 
 
 Instead of rushing to finish react-three-fiber documentation, study the Three.js docs. That will give you that extra confidence while coding. Do that and in the end, you won’t feel like this:
 
+![R3F-Panik](/img/R3F-Panik.jpeg)
+
 But more like this 😄
+
+![R3F-three](/img/three-react.png)

@@ -9,8 +9,8 @@ import { themes as prismThemes } from "prism-react-renderer";
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "React-Three-Fiber",
-  tagline: "Dinosaurs are cool",
-  favicon: "img/favicon.ico",
+  tagline: "React-Three-Fiber is cool",
+  favicon: "img/r3f-img.png",
 
   // Set the production url of your site here
   url: "https://your-docusaurus-site.example.com",
@@ -20,8 +20,8 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "facebook", // Usually your GitHub org/user name.
-  projectName: "docusaurus", // Usually your repo name.
+  organizationName: "emmz inc", // Usually your GitHub org/user name.
+  projectName: "doc-site", // Usually your repo name.
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -31,7 +31,16 @@ const config = {
   // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: "en",
-    locales: ["en"],
+    locales: ["en", "ar", "be", "bg", "ca", "cs", "da", "de"],
+    localeConfigs: {
+      en: {
+        htmlLang: "en-GB",
+      },
+      // You can omit a locale (e.g. fr) if you don't need to override the defaults
+      fa: {
+        direction: "rtl",
+      },
+    },
   },
 
   presets: [
@@ -43,15 +52,13 @@ const config = {
           sidebarPath: "./sidebars.js",
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+          editUrl: "https://github.com/emmz3230",
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+          editUrl: "https://github.com/emmz3230",
         },
         theme: {
           customCss: "./src/css/custom.css",
@@ -69,7 +76,7 @@ const config = {
         title: "React-Three-Fiber",
         logo: {
           alt: "My Site Logo",
-          src: "img/logo.svg",
+          src: "img/r3f-img.png",
         },
         items: [
           {
@@ -78,11 +85,17 @@ const config = {
             position: "left",
             label: "Tutorial",
           },
+
           { to: "/blog", label: "Blog", position: "left" },
           {
             href: "https://github.com/facebook/docusaurus",
             label: "GitHub",
             position: "right",
+          },
+          {
+            type: "localeDropdown",
+            position: "right",
+            queryString: "?persistLocale=true",
           },
         ],
       },
