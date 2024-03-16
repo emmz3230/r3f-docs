@@ -2,14 +2,6 @@
 sidebar_position: 5
 ---
 
-props
-orbitcontrols
-material
-light
-shadows
-loading models
-loading texture
-
 # Deploy your site
 
 Docusaurus is a **static-site-generator** (also called **[Jamstack](https://jamstack.org/)**).
