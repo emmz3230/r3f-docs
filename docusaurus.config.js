@@ -21,7 +21,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: "emmz inc", // Usually your GitHub org/user name.
-  projectName: "doc-site", // Usually your repo name.
+  projectName: "r3f-doc", // Usually your repo name.
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -38,7 +38,7 @@ const config = {
       },
       // You can omit a locale (e.g. fr) if you don't need to override the defaults
       fa: {
-        direction: "rtl",
+        direction: "ltr",
       },
     },
   },
@@ -89,7 +89,7 @@ const config = {
 
           { to: "/blog", label: "Blog", position: "left" },
           {
-            href: "https://github.com/facebook/docusaurus",
+            href: "https://github.com/emmz3230/r3f-docs/edit/main",
             label: "GitHub",
             position: "right",
           },

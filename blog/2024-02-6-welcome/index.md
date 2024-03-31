@@ -68,4 +68,4 @@ Instead of rushing to finish react-three-fiber documentation, study the Three.js
 
 But more like this 😄
 
-![R3F-three](/img/three-react.png)
+<!-- ![R3F-three](/img/three-react.png) -->
