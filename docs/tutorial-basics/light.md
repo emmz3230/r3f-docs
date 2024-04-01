@@ -1,3 +1,5 @@
+# Light
+
 Let's add a few different types of lights to a scene, and see how they affect the different materials.
 
 #### Note
