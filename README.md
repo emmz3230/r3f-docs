@@ -1,47 +1,14 @@
-# Website
+## React-Three-Fiber Documentation 
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+### This is  documentation site that guide you on how to use react-three-fiber the 3d react like syntax for the web.
+### you will be learning about topic like 
+React-Three-Fiber
 
-### Installation
+Setup Development Environment
 
-```
-$ yarn
-```
+Installation
 
-### Local Development
+and so on
 
-```
-$ yarn start
-```
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
-
-### Build
-
-```
-$ yarn build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-### Deployment
-
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
-
-prerequsite for this tutorial
-
-knowledge of three,js
-a browser(to see the resul of the code)
-a code editor(visual studio code)
+#### open this link https://r3f-doc.netlify.app/ and start the guide step by step 
