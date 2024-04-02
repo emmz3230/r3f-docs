@@ -12,3 +12,6 @@ and so on
 
 
 #### open this link https://r3f-doc.netlify.app/ and start the guide step by step 
+### contributors
+
+https://github.com/kingzamzon
